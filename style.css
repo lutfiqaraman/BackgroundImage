@@ -24,11 +24,6 @@ section {
   position: relative;
 }
 
-section > * {
-  position: relative;
-  z-index: 2;
-}
-
 section::after {
   content: '';
   position: absolute;
@@ -38,6 +33,11 @@ section::after {
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
+}
+
+section > * {
+  position: relative;
+  z-index: 2;
 }
 
 section:nth-of-type(1) {
