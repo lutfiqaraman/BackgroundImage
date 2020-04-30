@@ -4,9 +4,20 @@
   box-sizing: border-box;
 }
 
+h2, p {
+  margin-bottom: 10px;
+}
+
 section {
   padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: justify;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-of-type(1) {
+  background-image: url("./images/bkground.jpg");
 }
