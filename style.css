@@ -11,6 +11,7 @@ html, body {
 
 h2, p {
   margin-bottom: 10px;
+  letter-spacing: 0.0625em;
 }
 
 section {
